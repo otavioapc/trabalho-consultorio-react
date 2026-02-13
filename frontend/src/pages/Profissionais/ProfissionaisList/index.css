@@ -1,0 +1,46 @@
+.profissionais-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profissionais-container h2 {
+  margin-bottom: 16px;
+  text-align: center;
+  color: #2e8b57;
+  margin-bottom: 20px;
+}
+
+.profissionais-container .novo-btn {
+  margin-bottom: 16px;
+  padding: 8px 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.profissional-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.profissional-card p {
+  margin: 4px 0;
+}
+
+.profissional-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.profissional-actions button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.profissional-actions .excluir {
+  background-color: red;
+  color: white;
+}

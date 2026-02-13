@@ -1,0 +1,58 @@
+.especialidades-form-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+  border: 1px solid #d4d4d4;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.especialidades-form-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #2e8b57;
+}
+
+.especialidades-form-container label {
+  display: block;
+  margin-top: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.especialidades-form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.especialidades-form-container input:focus {
+  border-color: #2e8b57;
+  outline: none;
+}
+
+.especialidades-form-container button {
+  margin-top: 24px;
+  padding: 10px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  display: block;
+  width: 100%;
+}
+
+.especialidades-form-container button:hover {
+  background-color: #247346;
+}

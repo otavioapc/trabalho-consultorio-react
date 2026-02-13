@@ -1,0 +1,94 @@
+.atendimento-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+  border: 1px solid #d4d4d4;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.atendimento-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #2e8b57;
+}
+
+.atendimento-container label {
+  display: block;
+  margin-top: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.atendimento-container input,
+.atendimento-container select,
+.atendimento-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.atendimento-container input:focus,
+.atendimento-container select:focus,
+.atendimento-container textarea:focus {
+  border-color: #2e8b57;
+  outline: none;
+}
+
+.atendimento-container button {
+  margin-top: 20px;
+  padding: 10px 16px;
+  font-weight: bold;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.atendimento-container button:hover {
+  background-color: #247346;
+}
+
+.paciente-encontrado {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #eafbee;
+  border: 1px solid #c6eccf;
+  border-radius: 6px;
+  color: #2e8b57;
+  font-size: 0.95rem;
+}
+
+.paciente-nao-encontrado {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #fdecea;
+  border: 1px solid #f5c6cb;
+  border-radius: 6px;
+  color: #a94442;
+  font-size: 0.95rem;
+}
+
+.paciente-nao-encontrado button {
+  background-color: #d9534f;
+  color: white;
+  margin-top: 10px;
+}
+
+.paciente-nao-encontrado button:hover {
+  background-color: #b52b27;
+}
+
+.form-atendimento {
+  margin-top: 24px;
+}

@@ -1,0 +1,102 @@
+.profissionais-form-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+  border: 1px solid #d4d4d4;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.profissionais-form-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #2e8b57;
+}
+
+.profissionais-form-container label {
+  display: block;
+  margin-top: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.profissionais-form-container input,
+.profissionais-form-container select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.profissionais-form-container input:focus,
+.profissionais-form-container select:focus {
+  border-color: #2e8b57;
+  outline: none;
+}
+
+.profissionais-form-container button.submit-button {
+  margin-top: 24px;
+  padding: 10px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  display: block;
+  width: 100%;
+}
+
+.profissionais-form-container button.submit-button:hover {
+  background-color: #247346;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.error-message {
+  color: #d9534f;
+  font-size: 0.875rem;
+  margin-top: 4px;
+}
+
+input.error,
+select.error {
+  border-color: #d9534f;
+}
+
+/* Botão para ativar a busca de especialidades */
+.search-toggle {
+  margin-top: 8px;
+  background-color: #e7e7e7;
+  border: none;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-toggle:hover {
+  background-color: #dcdcdc;
+}
+
+/* Campo de pesquisa de especialidade */
+.search-input {
+  margin-top: 8px;
+  padding: 8px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}

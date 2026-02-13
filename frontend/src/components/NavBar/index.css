@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 24px;             /* espaçamento entre links */
+  padding: 12px 24px;
+  background: #f8f9fa;   /* mesmo fundo claro dos cards/formulários */
+  border-bottom: 1px solid #d4d4d4;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.navbar-logo {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #2e8b57;        /* verde principal */
+  text-decoration: none;
+  margin-right: auto;    /* empurra os links para a direita */
+}
+
+.navbar-link {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.navbar-link:hover,
+.navbar-link:focus {
+  background-color: #e6f4ea; /* leve highlight de fundo */
+  color: #2e8b57;
+}
+
+/* Link ativo (opcional, se usar NavLink) */
+.navbar-link.active {
+  background-color: #2e8b57;
+  color: #fff;
+}
+
+/* ---------- Responsividade simples ---------- */
+@media (max-width: 600px) {
+  .navbar {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .navbar-logo {
+    flex-basis: 100%;
+    margin-bottom: 4px;
+  }
+}

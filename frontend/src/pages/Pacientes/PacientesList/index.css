@@ -1,0 +1,43 @@
+.pacientes-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.pacientes-container h2 {
+  margin-bottom: 16px;
+}
+
+.pacientes-container .novo-btn {
+  margin-bottom: 16px;
+  padding: 8px 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.paciente-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.paciente-card p {
+  margin: 4px 0;
+}
+
+.paciente-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.paciente-actions button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.paciente-actions .excluir {
+  background-color: red;
+  color: white;
+}
